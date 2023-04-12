@@ -14,4 +14,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_data">Data</string>
     <string name="browser">Browser</string>
+    <string name="music_player">Music player</string>
 </resources>
