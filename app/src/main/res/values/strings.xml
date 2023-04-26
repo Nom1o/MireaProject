@@ -15,4 +15,5 @@
     <string name="menu_data">Data</string>
     <string name="browser">Browser</string>
     <string name="music_player">Music player</string>
+    <string name="compass">Compass</string>
 </resources>

@@ -28,5 +28,17 @@
             android:id="@+id/nav_player"
             android:icon="@drawable/ic_menu_music"
             android:title="@string/music_player" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Sensor" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_recorder"
+            android:icon="@android:drawable/presence_audio_online"
+            android:title="Audio recorder" />
     </group>
 </menu>

@@ -37,4 +37,19 @@
         android:name="ru.mirea.koldinma.mireaproject.ServiceFragment"
         android:label="fragment_service"
         tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.koldinma.mireaproject.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.koldinma.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_recorder"
+        android:name="ru.mirea.koldinma.mireaproject.RecorderFragment"
+        android:label="fragment_recorder"
+        tools:layout="@layout/fragment_recorder" />
 </navigation>
