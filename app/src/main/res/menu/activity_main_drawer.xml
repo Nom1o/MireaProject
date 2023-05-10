@@ -40,5 +40,13 @@
             android:id="@+id/nav_recorder"
             android:icon="@android:drawable/presence_audio_online"
             android:title="Audio recorder" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/free_icon_capital_letter_7427770"
+            android:title="File Worker" />
     </group>
 </menu>
