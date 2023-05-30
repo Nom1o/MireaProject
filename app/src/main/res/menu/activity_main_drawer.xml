@@ -52,5 +52,9 @@
             android:id="@+id/nav_net"
             android:icon="@drawable/free_icon_weather_3942043"
             android:title="File Worker" />
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Places" />
     </group>
 </menu>
