@@ -124,7 +124,7 @@ public class MapActivity extends AppCompatActivity {
 
 
     }
-
+    @Override
     public void onResume() {
         super.onResume();
         Configuration.getInstance().load(getApplicationContext(),
