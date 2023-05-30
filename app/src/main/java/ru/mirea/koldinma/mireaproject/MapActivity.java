@@ -124,4 +124,24 @@ public class MapActivity extends AppCompatActivity {
 
 
     }
+
+    public void onResume() {
+        super.onResume();
+        Configuration.getInstance().load(getApplicationContext(),
+                PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+        if (mapView != null) {
+            mapView.onResume();
+        }
+    }
+    @Override
+    public void onPause() {
+        super.onPause();
+        Configuration.getInstance().save(getApplicationContext(),
+
+                PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+
+        if (mapView != null) {
+            mapView.onPause();
+        }
+    }
 }
